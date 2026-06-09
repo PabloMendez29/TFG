@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\GEBuffers">
+      <UniqueIdentifier>{9932aaa3-5584-46a9-9151-9735cb976d26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\GEContexts">
+      <UniqueIdentifier>{51f06c4c-be9a-466e-aad5-dc5e223a0075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\GEFigures">
+      <UniqueIdentifier>{ef00314f-1cd3-46b7-810a-2eaeece5db14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\GEStructs">
+      <UniqueIdentifier>{4efbeae8-ca7f-4a94-b1f6-ab8aee296854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\GEBuffers">
+      <UniqueIdentifier>{f7d9cbdd-d5fd-4052-a1f3-5cb831f79502}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\GEContexts">
+      <UniqueIdentifier>{9b5a62eb-adf8-408a-8c56-b7711b4feea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\GEFigures">
+      <UniqueIdentifier>{ad5bfa9c-1847-4c9a-9edb-3aea785f9673}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GEValidationLayer.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="GETexture.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="GEScene.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="GEDescriptorSet.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="GECamera.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="GEApplication.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="GEBuffer.h">
+      <Filter>Archivos de encabezado\GEBuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="GEDepthBuffer.h">
+      <Filter>Archivos de encabezado\GEBuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="GEIndexBuffer.h">
+      <Filter>Archivos de encabezado\GEBuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="GEStorageBuffer.h">
+      <Filter>Archivos de encabezado\GEBuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="GEUniformBuffer.h">
+      <Filter>Archivos de encabezado\GEBuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="GEVertexBuffer.h">
+      <Filter>Archivos de encabezado\GEBuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="GEDrawingContext.h">
+      <Filter>Archivos de encabezado\GEContexts</Filter>
+    </ClInclude>
+    <ClInclude Include="GEGraphicsContext.h">
+      <Filter>Archivos de encabezado\GEContexts</Filter>
+    </ClInclude>
+    <ClInclude Include="GECommandContext.h">
+      <Filter>Archivos de encabezado\GEContexts</Filter>
+    </ClInclude>
+    <ClInclude Include="GERenderingContext.h">
+      <Filter>Archivos de encabezado\GEContexts</Filter>
+    </ClInclude>
+    <ClInclude Include="GECubeMorphing.h">
+      <Filter>Archivos de encabezado\GEFigures</Filter>
+    </ClInclude>
+    <ClInclude Include="GEFigureMorphing.h">
+      <Filter>Archivos de encabezado\GEFigures</Filter>
+    </ClInclude>
+    <ClInclude Include="GEFigureRigid.h">
+      <Filter>Archivos de encabezado\GEFigures</Filter>
+    </ClInclude>
+    <ClInclude Include="GEGround.h">
+      <Filter>Archivos de encabezado\GEFigures</Filter>
+    </ClInclude>
+    <ClInclude Include="GELight.h">
+      <Filter>Archivos de encabezado\GEStructs</Filter>
+    </ClInclude>
+    <ClInclude Include="GEMaterial.h">
+      <Filter>Archivos de encabezado\GEStructs</Filter>
+    </ClInclude>
+    <ClInclude Include="GETransform.h">
+      <Filter>Archivos de encabezado\GEStructs</Filter>
+    </ClInclude>
+    <ClInclude Include="GEVertexMorphing.h">
+      <Filter>Archivos de encabezado\GEStructs</Filter>
+    </ClInclude>
+    <ClInclude Include="GEVertexRigid.h">
+      <Filter>Archivos de encabezado\GEStructs</Filter>
+    </ClInclude>
+    <ClInclude Include="GEWindowPosition.h">
+      <Filter>Archivos de encabezado\GEStructs</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Archivos de encabezado\GEStructs</Filter>
+    </ClInclude>
+    <ClInclude Include="GEPipelineConfig.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="GETime.h">
+      <Filter>Archivos de encabezado\GEStructs</Filter>
+    </ClInclude>
+    <ClInclude Include="GESphere.h">
+      <Filter>Archivos de encabezado\GEStructs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="GEValidationLayer.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="GETexture.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="GEScene.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="GEPipelineConfig.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="GEDescriptorSet.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="GECamera.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="GEApplication.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="GEBuffer.cpp">
+      <Filter>Archivos de origen\GEBuffers</Filter>
+    </ClCompile>
+    <ClCompile Include="GEDepthBuffer.cpp">
+      <Filter>Archivos de origen\GEBuffers</Filter>
+    </ClCompile>
+    <ClCompile Include="GEIndexBuffer.cpp">
+      <Filter>Archivos de origen\GEBuffers</Filter>
+    </ClCompile>
+    <ClCompile Include="GEStorageBuffer.cpp">
+      <Filter>Archivos de origen\GEBuffers</Filter>
+    </ClCompile>
+    <ClCompile Include="GEUniformBuffer.cpp">
+      <Filter>Archivos de origen\GEBuffers</Filter>
+    </ClCompile>
+    <ClCompile Include="GEVertexBuffer.cpp">
+      <Filter>Archivos de origen\GEBuffers</Filter>
+    </ClCompile>
+    <ClCompile Include="GERenderingContext.cpp">
+      <Filter>Archivos de origen\GEContexts</Filter>
+    </ClCompile>
+    <ClCompile Include="GECubeMorphing.cpp">
+      <Filter>Archivos de origen\GEFigures</Filter>
+    </ClCompile>
+    <ClCompile Include="GEFigureMorphing.cpp">
+      <Filter>Archivos de origen\GEFigures</Filter>
+    </ClCompile>
+    <ClCompile Include="GEFigureRigid.cpp">
+      <Filter>Archivos de origen\GEFigures</Filter>
+    </ClCompile>
+    <ClCompile Include="GEGround.cpp">
+      <Filter>Archivos de origen\GEFigures</Filter>
+    </ClCompile>
+    <ClCompile Include="GESphere.cpp">
+      <Filter>Archivos de origen\GEFigures</Filter>
+    </ClCompile>
+    <ClCompile Include="GECommandContext.cpp">
+      <Filter>Archivos de origen\GEContexts</Filter>
+    </ClCompile>
+    <ClCompile Include="GEDrawingContext.cpp">
+      <Filter>Archivos de origen\GEContexts</Filter>
+    </ClCompile>
+    <ClCompile Include="GEGraphicsContext.cpp">
+      <Filter>Archivos de origen\GEContexts</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Proyecto3.rc">
+      <Filter>Archivos de recursos</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
